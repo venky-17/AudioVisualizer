@@ -1,5 +1,5 @@
-//import { hslToRgb } from "./utils";
-export function hslToRgb(h, s, l) {
+
+ function hslToRgb(h, s, l) {
     let r;
     let g;
     let b;
@@ -35,8 +35,8 @@ const ctx = canvas.getContext('2d')
 canvas.width = width;
 canvas.height = height;
 
-let analyser
-let bufferLength
+let analyser;
+let bufferLength;
 function handleError(err){
     console.log('pls give access to ur microphone');
 }
